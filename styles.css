@@ -75,15 +75,6 @@ table thead th {
   color: white;
 }
 
-#pacotes .figuras figure {
-  display: inline-block;
-}
-
-#pacotes .figuras,
-#pacotes .videos {
-  text-align: center;
-}
-
 #pacotes img {
   border-radius: 12px;
 }

@@ -157,7 +157,11 @@
               <p class="card-text">Como será que ele voa?</p>
             </div>
             <div class="card-footer">
-              <button class="text-body-secondary bg-info border-0 rounded-2">
+              <button
+                class="text-body-secondary bg-info border-0 rounded-2 w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 Ver mais
               </button>
             </div>
@@ -171,7 +175,11 @@
               <p class="card-text">Quantos né? Tri legal.</p>
             </div>
             <div class="card-footer">
-              <button class="text-body-secondary bg-info border-0 rounded-2">
+              <button
+                class="text-body-secondary bg-info border-0 rounded-2 w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 Ver mais
               </button>
             </div>
@@ -187,7 +195,11 @@
               </p>
             </div>
             <div class="card-footer">
-              <button class="text-body-secondary bg-info border-0 rounded-2">
+              <button
+                class="text-body-secondary bg-info border-0 rounded-2 w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 Reportar ao Time
               </button>
             </div>
@@ -371,4 +383,44 @@
       crossorigin="anonymous"
     ></script>
   </body>
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-primary" id="exampleModalLabel">
+            Vamos aprender?
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          Vamos aprender como fazer este tipo de avião de papel?
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Depois
+          </button>
+          <button type="button" class="btn btn-primary">
+            Claro, vamos nessa
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </html>

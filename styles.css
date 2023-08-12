@@ -30,3 +30,8 @@ video {
 footer {
   text-align: center;
 }
+
+.carousel-caption h5 {
+  font-size: 40px;
+  color: #0215bb;
+}
